@@ -56,4 +56,3 @@ def test8_create_kit_without_name_parameter():
 def test9_create_kit_with_different_parameter():
     current_kit_body = get_kit_body(data.test9_kit_name)
     negative_assert_400(current_kit_body)
-
